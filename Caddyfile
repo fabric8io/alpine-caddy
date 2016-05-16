@@ -7,3 +7,11 @@ log stdout
 errors stdout
 
 ext .html .htm .php
+
+browse
+
+upload / { 
+  to "/var/www/html"
+  yes_without_tls
+  silent_auth_errors
+}
