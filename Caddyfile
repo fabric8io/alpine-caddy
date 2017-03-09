@@ -9,6 +9,7 @@ errors stdout
 ext .html .htm .php
 
 browse
+prometheus
 
 upload / { 
   to "/var/www/html"
